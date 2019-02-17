@@ -34,3 +34,5 @@ To use a single configuration file or directory, use `use.sh`
 bash use.sh goto.bash
 bash use.sh bash_aliases
 ```
+
+*Note: goto.bash must be sourced into .bashrc file*
