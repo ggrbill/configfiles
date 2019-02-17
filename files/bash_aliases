@@ -1,0 +1,19 @@
+# Clear Screen
+alias cls='clear'
+# Shutdown
+alias TurnOff='sudo shutdown -h now'
+# Aliases to apt-get
+alias Install-pkg='sudo apt-get install'
+alias Upgrade-pkg='sudo apt-get install --only-upgrade'
+alias Remove-pkg='sudo apt-get remove'
+alias Search-pkg='sudo apt-cache search'
+alias Check-pkg='dpkg -l | grep'
+# Virtual Environmets
+alias ActEnv='source activate'
+alias DeactEnv='source deactivate'
+# Nemo (File manager)
+alias n.='nemo .'
+# .bashrc related
+alias emybrc='vim ~/.bashrc.sh'
+alias ebrc='vim ~/.bashrc'
+alias sbrc='source ~/.bashrc'
