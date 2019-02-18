@@ -1,2 +1,4 @@
 ~/.bash_aliases bash_aliases
-~/goto.bash goto.bash
+~/.bashrc.sh mybashrc
+~/.config/powerline-shell/config.json powerline-shell
+~/.goto.bash goto.bash

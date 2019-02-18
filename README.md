@@ -31,8 +31,18 @@ Using single files
 To use a single configuration file or directory, use `use.sh`
 
 ```bash
-bash use.sh goto.bash
 bash use.sh bash_aliases
 ```
 
-*Note: goto.bash must be sourced into .bashrc file*
+After install the configurations
+--------------------------------
+
+Add the following line to the end of `.bashrc`. 
+```bash 
+source .bashrc.sh
+```
+
+Requirements
+------------
+
+To use `powerline-shell` config file it must be insalled following the instructions [here](https://github.com/b-ryan/powerline-shell).

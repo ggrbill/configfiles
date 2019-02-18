@@ -1,0 +1,13 @@
+# vim:is_bash=1:set ft=sh:
+
+## Goto Folders
+source ~/.goto.bash
+
+## Powerline-Shell instruction
+function _update_ps1() {
+    PS1=$(powerline-shell $?)
+}
+
+if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
+    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
+fi
