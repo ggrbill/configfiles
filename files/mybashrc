@@ -1,4 +1,4 @@
-# vim:is_bash=1:set ft=sh:
+# vim:set ft=sh:
 
 ## Goto Folders
 source ~/.goto.bash
