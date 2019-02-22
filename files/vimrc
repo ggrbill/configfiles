@@ -1,0 +1,23 @@
+" VIM basic config
+set modeline
+set wildmenu                    "enable cool menu
+set mouse=a                     "get mouse working on mouse-capable terminals
+set backspace=indent,eol,start  "make backspace work everywhere
+set laststatus=2
+set ttimeoutlen=0               "no delay when going back into normal mode
+set expandtab                   "spaces instead of tab
+set tabstop=4                   "tabwidth is 4 spaces
+set shiftwidth=4                "indent by 4 with >> and <<
+set autoindent                  "start nextline indented
+set clipboard=unnamedplus       "make vim clipboard the same as the system one
+
+" Plugin installation
+call plug#begin('~/.vim/plugged')
+Plug 'vim-airline/vim-airline'
+call plug#end()
+
+" Airline Setup
+let g:airline#extensions#tabline#enabled=1       " enable tabline support
+let g:airline#extensions#tabline#tab_nr_type=1   " show tab numbers
+let g:airline#extensions#tabline#show_buffers=0  " hide buffers
+let g:airline#extensions#tabline#tab_min_count=2 " hide tabline for one tab

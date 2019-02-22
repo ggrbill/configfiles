@@ -2,3 +2,4 @@
 ~/.bashrc.sh mybashrc
 ~/.config/powerline-shell/config.json powerline-shell
 ~/.goto.bash goto.bash
+~/.vim/vimrc vimrc
