@@ -1,3 +1,5 @@
+# vim:set ft=sh:
+
 # Clear Screen
 alias cls='clear'
 # List symbolic links
