@@ -39,7 +39,7 @@ After install the configurations
 
 Add the following line to the end of `.bashrc`. 
 ```bash 
-source .bashrc.sh
+source .mybashrc
 ```
 
 Requirements

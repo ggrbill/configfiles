@@ -20,8 +20,9 @@ alias n.='nemo .'
 # Edit this file
 alias eba='vim ~/.bash_aliases'
 # .bashrc related
-alias emybrc='vim ~/.bashrc.sh'
+alias emybrc='vim ~/.mybashrc'
 alias ebrc='vim ~/.bashrc'
 alias sbrc='source ~/.bashrc'
 # powerline-shell config file
 alias epls='vim ~/.config/powerline-shell/config.json'
+alias evrc='vim ~/.vim/vimrc'

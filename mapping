@@ -1,5 +1,5 @@
 ~/.bash_aliases bash_aliases
-~/.bashrc.sh mybashrc
+~/.mybashrc mybashrc
 ~/.config/powerline-shell/config.json powerline-shell
 ~/.goto.bash goto.bash
 ~/.vim/vimrc vimrc
