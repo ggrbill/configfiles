@@ -45,5 +45,5 @@ source .mybashrc
 Requirements
 ------------
 
-To use `powerline-shell` config file it must be installed following the instructions [here](https://github.com/b-ryan/powerline-shell).
-To use `vimrc` config file the `vim-plug` must be installed following the instruction [here](https://github.com/junegunn/vim-plug).
+- To use `powerline-shell` config file it must be installed following the instructions [here](https://github.com/b-ryan/powerline-shell).
+- To use `vimrc` config file the `vim-plug` must be installed following the instruction [here](https://github.com/junegunn/vim-plug).
