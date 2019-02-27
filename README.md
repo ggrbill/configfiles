@@ -45,4 +45,4 @@ source .bashrc.sh
 Requirements
 ------------
 
-To use `powerline-shell` config file it must be insalled following the instructions [here](https://github.com/b-ryan/powerline-shell).
+To use `powerline-shell` config file it must be installed following the instructions [here](https://github.com/b-ryan/powerline-shell).
