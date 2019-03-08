@@ -12,7 +12,7 @@ If you clone this repository, it is recommended that you use it
 to base your own configurations on, instead of always updating
 from it. I might at any moment make changes you won't like.
 
-Using these configurations
+Installing these configurations
 --------------------------
 
 To install the configurations, enter the cloned repository and run:
@@ -39,7 +39,7 @@ After install the configurations
 
 Add the following line to the end of `.bashrc`. 
 ```bash 
-source .mybashrc
+source ~/.mybashrc
 ```
 
 Requirements
