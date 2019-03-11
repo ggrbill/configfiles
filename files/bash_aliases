@@ -13,8 +13,8 @@ alias Remove-pkg='sudo apt-get remove'
 alias Search-pkg='sudo apt-cache search'
 alias Check-pkg='dpkg -l | grep'
 # Virtual Environmets
-alias ActEnv='source activate'
-alias DeactEnv='source deactivate'
+alias ActEnv='conda activate'
+alias DeactEnv='conda deactivate'
 # Nemo (File manager)
 alias n.='nemo .'
 # Edit this file
