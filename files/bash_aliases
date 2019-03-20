@@ -12,7 +12,7 @@ alias Upgrade-pkg='sudo apt-get install --only-upgrade'
 alias Remove-pkg='sudo apt-get remove'
 alias Search-pkg='sudo apt-cache search'
 alias Check-pkg='dpkg -l | grep'
-# Virtual Environmets
+# Conda Environmets
 alias ActEnv='conda activate'
 alias DeactEnv='conda deactivate'
 # Nemo (File manager)
@@ -26,3 +26,7 @@ alias sbrc='source ~/.bashrc'
 # powerline-shell config file
 alias epls='vim ~/.config/powerline-shell/config.json'
 alias evrc='vim ~/.vim/vimrc'
+# Aliases to git-log 
+#alias glog='git log --oneline --graph --color --all --decorate --max-count=30'
+alias glog='git log --graph --abbrev-commit --decorate --format=format:"%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)" --all --max-count=30'
+alias glogex='git log --graph --abbrev-commit --decorate --format=format:"%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n""          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)" --all --max-count=20'
