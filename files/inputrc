@@ -2,3 +2,7 @@
 "\e[A":history-search-backward
 ## arrow down
 "\e[B":history-search-forward
+## ctrl + arrow right
+"\e[1;5C":forward-word
+## ctrl + arrow left
+"\e[1;5D":backward-word
