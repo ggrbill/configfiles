@@ -42,7 +42,7 @@ source ~/.mybashrc
 
 - To use `powerline-shell` config file it must be installed following the instructions [here](https://github.com/b-ryan/powerline-shell).
 - To use `vimrc` config file the `vim-plug` must be installed following the instructions [here](https://github.com/junegunn/vim-plug).
-- To use `terminator.config` file the terminal emulator [__terminator__](https://terminator-gtk3.readthedocs.io/en/latest/). should be installed.
+- To use `terminator.config` file the terminal emulator [__terminator__](https://terminator-gtk3.readthedocs.io/en/latest/) should be installed.
 
 Also you can follow the instructions below:
 
