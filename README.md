@@ -33,7 +33,7 @@ bash use.sh bash_aliases
 
 ## After install the configurations
 
-Add the following line to the end of `.bashrc`. 
+Add the following line to the end of `.bashrc`.
 ```bash 
 source ~/.mybashrc
 ```
@@ -42,6 +42,7 @@ source ~/.mybashrc
 
 - To use `powerline-shell` config file it must be installed following the instructions [here](https://github.com/b-ryan/powerline-shell).
 - To use `vimrc` config file the `vim-plug` must be installed following the instructions [here](https://github.com/junegunn/vim-plug).
+- To use `terminator.config` file the terminal emulator __terminator__ should be installed. For more information about __terminator__ go to [docs](https://terminator-gtk3.readthedocs.io/en/latest/).
 
 Also you can follow the instructions below:
 
@@ -49,7 +50,7 @@ Also you can follow the instructions below:
 
 Run the following commands:
 
-```bash 
+```bash
 pip install powerline-shell
 sudo apt install fonts-powerline
 ```
@@ -67,7 +68,7 @@ After that, type `:PlugInstall` inside *vim* editor in *normal mode*.
 
 ### terminator
 
-To use `terminator.config` file the terminal emulator __terminator__ should be installed. Run the commando below:
+To install it, run the command below:
 ```bash 
 sudo apt install terminator
 ```
