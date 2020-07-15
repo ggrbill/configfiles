@@ -64,3 +64,10 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 After that, type `:PlugInstall` inside *vim* editor in *normal mode*.
+
+### terminator
+
+To use `terminator.config` file the terminal emulator __terminator__ should be installed. Run the commando below:
+```bash 
+sudo apt install terminator
+```
