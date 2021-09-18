@@ -56,7 +56,7 @@ sudo apt install fonts-powerline
 ```
 *For powerline-shell works it is need to __logout__ and __login__ after install it.*
 
-To use it with _WSL_ and _Windows Terminal_ you have to download the powerline font called _AnonymousPro_ from [here](https://github.com/ggrbill/fonts/tree/master/AnonymousPro) and install it manually in your **Windows 10**.
+To use it with _WSL_ and _Windows Terminal_ you have to download the powerline font called _AnonymousPro_ from [here](https://github.com/ggrbill/fonts/tree/master/AnonymousPro) and install it manually in your **Windows 10**. After that the powerline font have to be selected in the Windows Terminal Config Tab.
 
 ### vim-plug
 
